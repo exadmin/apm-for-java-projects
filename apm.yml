@@ -1,0 +1,5 @@
+name: exadmin/apm-for-java-projects
+version: 1.0.0
+dependencies:
+  apm:
+    # dependencies are here
