@@ -1,6 +1,6 @@
 ---
 description: Check APM instructions
-applyTo: ["apm_modules/**/**"]
+applyTo: "apm_modules/**/**"
 ---
 
 # Apply this rule when reading APM instructions at the begining of the session
