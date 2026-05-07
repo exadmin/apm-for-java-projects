@@ -1,8 +1,8 @@
 ---
-description: Git usage specific
-applyTo: [".idea/*.xml", ".gitignore"]
+description: Check APM instructions
+applyTo: "apm_modules/**/**"
 ---
 
-# IntelliJ IDEA project files
-Always add ".idea/" to ".gitignore" file.
-If you see that ".idea/*.xml" files already tracked by git - advise user to drop git index for them by calling "git rm --cached -r .idea" and commiting changes.
+# Apply this rule when reading APM instructions at the begining of the session
+1. Ensure APM instructions are up-to-date. If time-stamp of files is less than 1 day - advise user to call `apm-update.cmd` file
+2. Check that all instuctions are not contradictory to each other
