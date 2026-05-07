@@ -1,5 +1,6 @@
 ---
 description: This instruction contains rules to follow when implementing Java projects
+applyTo: "**/*.java"
 ---
 
 # Java coding rules
