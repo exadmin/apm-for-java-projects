@@ -6,6 +6,7 @@ description: This instruction contains rules to follow when implementing Java pr
 1. All new classes must be placed in the `com.github.exadmin.${PROJECT_NAME}` package, where `${PROJECT_NAME}` is the name of the project (or repository). Ask when unclear.
 2. Use JDK 17+ language level.
 3. All comments and messages in the source code must be written in English.
+4. Don't use internal (embedded) classes or records. All such entities must be placed into personal java files (with public or package protected access level).
 
 # Logging
 1. Do not use plain logging to console unless explicitly asked.
