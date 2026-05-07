@@ -17,6 +17,7 @@ applyTo: "**/*.java"
 1. Note that user may modify sources you've touched/read in parallel. Re-read sources each time you need them.
 2. Place all static utility methods into separate classes like `StrUtils` for string operations, `FileUtils` for file operations, `DateUtils` for date-time operations, and so on.
 3. Each public method and class must have clear JavaDocs description. If a file was modified by you, then verify the JavaDocs description of the corresponding method you've touched.
+4. Do not perform import optimizations or unused imports search.
 
 # Security best practices
 1. If the project requires program secret arguments (tokens, passwords, API keys), then all such arguments must be requested via an external Java properties file, and the path to such file must be the only program argument.
