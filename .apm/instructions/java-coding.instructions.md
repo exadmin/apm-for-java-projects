@@ -22,5 +22,5 @@ applyTo: "**/*.java"
 # Security best practices
 1. If the project requires program secret arguments (tokens, passwords, API keys), then all such arguments must be requested via an external Java properties file, and the path to such file must be the only program argument.
 
-# Compilcation
+# Compilation
 1. Do not run compilation/build/packaging.
