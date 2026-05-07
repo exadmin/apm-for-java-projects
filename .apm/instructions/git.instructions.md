@@ -1,6 +1,6 @@
 ---
 description: Git usage specific
-applyTo: [".idea/*.xml, .gitignore"]
+applyTo: ".idea/*.xml,.gitignore"
 ---
 
 # IntelliJ IDEA project files
