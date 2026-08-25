@@ -4,6 +4,6 @@ APM (Agent Package Manager) instructions for Java projects I do with AI Agents
 # How to use
 Run 
 ```shell
-apm install exadmin/apm-for-java-projects
+apm install exadmin/apm-for-java-projects --target codex
 apm compile --target codex
 ```
