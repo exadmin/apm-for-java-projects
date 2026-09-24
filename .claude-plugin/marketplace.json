@@ -1,0 +1,23 @@
+{
+  "name": "apm-for-java-projects",
+  "owner": {
+    "name": "exadmin",
+    "url": "https://github.com/exadmin"
+  },
+  "plugins": [
+    {
+      "name": "my-java-dev",
+      "description": "Personal Git and Java development instructions.",
+      "version": "1.1.0",
+      "category": "Productivity",
+      "source": "./plugins/my-java-dev"
+    },
+    {
+      "name": "my-super-powers",
+      "description": "Require an approved action plan before making changes.",
+      "version": "1.1.0",
+      "category": "Productivity",
+      "source": "./plugins/my-super-powers"
+    }
+  ]
+}

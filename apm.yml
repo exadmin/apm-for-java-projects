@@ -1,2 +1,36 @@
-name: exadmin/apm-for-java-projects
-version: 1.0.4
+name: apm-for-java-projects
+version: 1.1.0
+description: Personal APM marketplace for Java development and planning workflows.
+license: MIT
+repository: https://github.com/exadmin/apm-for-java-projects
+
+marketplace:
+  owner:
+    name: exadmin
+    url: https://github.com/exadmin
+
+  outputs:
+    claude: {}
+    codex: {}
+
+  claude:
+    output: .claude-plugin/marketplace.json
+
+  codex:
+    output: .agents/plugins/marketplace.json
+
+  versioning:
+    strategy: lockstep
+
+  packages:
+    - name: my-java-dev
+      description: Personal Git and Java development instructions.
+      source: ./plugins/my-java-dev
+      version: 1.1.0
+      category: Productivity
+
+    - name: my-super-powers
+      description: Require an approved action plan before making changes.
+      source: ./plugins/my-super-powers
+      version: 1.1.0
+      category: Productivity

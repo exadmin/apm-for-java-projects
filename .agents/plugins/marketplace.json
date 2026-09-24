@@ -1,0 +1,32 @@
+{
+  "name": "apm-for-java-projects",
+  "interface": {
+    "displayName": "apm-for-java-projects"
+  },
+  "plugins": [
+    {
+      "name": "my-java-dev",
+      "source": {
+        "source": "local",
+        "path": "./plugins/my-java-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "my-super-powers",
+      "source": {
+        "source": "local",
+        "path": "./plugins/my-super-powers"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
