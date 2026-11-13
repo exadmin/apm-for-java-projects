@@ -1,0 +1,9 @@
+name: my-session-usage
+version: 1.1.0
+description: Report current-session ccusage statistics on explicit request.
+author: exadmin
+license: MIT
+repository: https://github.com/exadmin/apm-for-java-projects
+
+type: hybrid
+includes: auto

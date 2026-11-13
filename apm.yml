@@ -34,3 +34,9 @@ marketplace:
       source: ./plugins/my-super-powers
       version: 1.1.0
       category: Productivity
+
+    - name: my-session-usage
+      description: Report current-session ccusage statistics on explicit request.
+      source: ./plugins/my-session-usage
+      version: 1.1.0
+      category: Productivity
